@@ -12,12 +12,12 @@ python3 allPairsShortestPath.py --algorithm a YOURTEXTFILE.txt
 
 ### Algorithms
 
-* "a" represents running both the Bellman-Ford and Floyd-Warshall algorithms.
+* `a` represents running both the Bellman-Ford and Floyd-Warshall algorithms.
     However, this is simply a sanity check as to whether both algorithms 
     have been tested properly, so it does not print out the running times
     for both algorithms.
 * To check for either Bellman-Ford or Floyd-Warshall only, 
-    replace "a" with "b" (for Bellman-Ford) or "f" (for Floyd-Warshall).
+    replace `a` with `b` (for Bellman-Ford) or `f` (for Floyd-Warshall).
 * The statistics printed out represent the run times for the algorithm(s) in question.
     These consist of the number of calls as well as the total time taken to make
     those number of calls.
